@@ -26,20 +26,22 @@
 1. Clone this repository.
 
 2. Install the required dependencies:
-   - pip install streamlit fpdf
-   
-3. Run the application with Streamlit:
-   - streamlit run app.py
+  
+   pip install streamlit fpdf
 
-4. Fill in the document details in the browser interface:
+3. Run the application with Streamlit:
+
+   streamlit run app.py
+
+5. Fill in the document details in the browser interface:
    - Enter the Document Title and Author Name.
    - Optionally, upload an image for the cover.
    - Define the number of chapters and provide details for each one:
       - Chapter title
       - Chapter body text
       - Font style and size
-5. Click Generate PDF to create the document.
-6. Once generated, click Download PDF to save the file to your computer.
+6. Click Generate PDF to create the document.
+7. Once generated, click Download PDF to save the file to your computer.
 
 ---
 
