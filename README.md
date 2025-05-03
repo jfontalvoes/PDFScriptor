@@ -22,11 +22,33 @@
 
 ---
 
-## 📦 Installation
+## 🚀 Usage
+1. Clone this repository.
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/yourusername/PDFScriptor.git
-   cd PDFScriptor
+2. Install the required dependencies:
+   pip install streamlit fpdf
+   
+3. Run the application with Streamlit:
+   streamlit run app.py
 
+4. Fill in the document details in the browser interface:
+   - Enter the Document Title and Author Name.
+   - Optionally, upload an image for the cover.
+   - Define the number of chapters and provide details for each one:
+      - Chapter title
+      - Chapter body text
+      - Font style and size
+5. Click Generate PDF to create the document.
+6. Once generated, click Download PDF to save the file to your computer.
 
+---
+
+## 📜 License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+---
+
+## ✨ Author
+Developed by Jonathan Estiven Fontalvo Aparicio 📧
+
+Feel free to copy this into your repo. If you'd like to contribute or help, just let me know!
